@@ -1,6 +1,6 @@
-### Learning from Data: Applied Mathematics and Machine Learning 
+### Machine Intelligence: Applied Mathematics and Machine Learning 
 
-This repository houses some sections of the text and software associated with _Learning from Data: Applied Mathematics 
+This repository houses some sections of the text and software associated with _Machine Intelligence: Applied Mathematics 
 and Machine Learning_, a textbook I'm co-authoring with Professor Ruye Wang in the Harvey Mudd College Engineering department. 
 A primary objective for the book is an emphasis on supporting the reader in a learning process that begins with mathematics, 
 and culminates in practical experiences with the concepts and methods to do effective machine learning in an applied context. 
