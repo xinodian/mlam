@@ -1,4 +1,8 @@
 # ignore various TeX related files
+*.blg
+*.bcf
+*.bbl
+*.xml
 *.log
 *.aux
 *.sty
