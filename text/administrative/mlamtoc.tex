@@ -1,0 +1,401 @@
+\documentclass[10pt]{article}
+\pdfoutput=1
+\usepackage{../tex/NotesTeX}
+% \fontfamily{cmr}\selectfont
+\usepackage{ragged2e}
+\usepackage{titletoc}
+\usepackage{shorttoc}
+% \setcounter{tocdepth}{1}
+
+\title{\begin{flushright}{\Large Machine Intelligence}\\{{\Large Applied Mathematics and Machine Learning}}\end{flushright}}
+\author{Ruye Wang, Nick Richardson}
+
+
+\affiliation{
+Harvey Mudd College \\
+Department of Engineering, Department of Mathematics \\
+}
+
+\emailAdd{rwang@hmc.edu, nrichardson@g.hmc.edu}
+
+\begin{document}
+
+\maketitle
+\flushbottom
+\pagestyle{fancynotes}
+
+\part{Fundamentals}
+
+\section{Probabilities and Inference}
+
+\subsection{Probability}
+
+\subsection{Collections of Probabilities}
+
+\subsubsection{Joint Probability}
+
+\subsubsection{Marginal Probability}
+
+\subsubsection{Conditional Probability}
+
+\subsection{Independence}
+
+\subsection{Product Rule \& Sum Rule}
+
+\subsection{Bayes' Theorem}
+
+\subsection{Expectation}
+
+\subsection{Variance \& Covariance}
+
+\subsection{Information \& Entropy}
+
+\subsection{Bounds on Signal Compression}
+
+\subsection{Kullback-Leibler Divergence}
+
+\subsection{Inductive Bias}
+
+\subsection{The Language of Inference}
+
+\subsubsection{Prior}
+
+\subsubsection{Likelihood}
+
+\subsubsection{Evidence/Marginal Likelihood}
+
+\subsection{Point Estimation}
+
+\subsubsection{Maximum Likelihood}
+
+\subsubsection{Maximum a Posteriori}
+
+\subsection{Laplace's Method}
+
+\subsection{Variational Inference}
+
+\subsection{Markov Chain Monte Carlo}
+
+\subsubsection{Importance Sampling}
+
+\subsubsection{Rejection Sampling}
+
+\subsubsection{Hamiltonian MCMC}
+
+\section{Linear Algebra}
+
+\subsection{Vectors}
+
+\subsubsection{Vector addition and scaling}
+
+\subsubsection{Inner Products}
+
+\subsubsection{Vector Norms}
+
+\subsubsection{Angle}
+
+\subsubsection{Vector Mean and Variance}
+
+\subsubsection{Linearity and Approximations from Calculus}
+
+\subsubsection{Linear Independence and Basis}
+
+\subsubsection{Orthogonality}
+
+\subsubsection{Vector Mean and Variance}
+
+\subsubsection{Vectorized data}
+
+\subsubsection{$k$-means clustering: A Taste of Automatic Structure Discovery}
+
+\subsection{Matrices}
+
+\subsubsection{Matrix addition and transpose}
+
+\subsubsection{Matrix-vector and matrix-matrix multiplication}
+
+\subsubsection{Geometric matrices}
+
+\subsubsection{Convolution matrices}
+
+\subsubsection{Finite Differences}
+
+\subsubsection{Matrix representations of graphs}
+
+\subsubsection{Affine functions}
+
+\subsubsection{Systems of Linear Equations \& Compositions of Linear Functions}
+
+\subsubsection{Matrix Inverses \& Psuedo-inverses}
+
+\subsubsection{Matrix Powers \& Eigensystems}
+
+\subsubsection{Common matrix factorizations}
+
+\subsubsection{Singular Value Decomposition}
+
+\subsubsection{Least Squares}
+
+\section{Signal Processing}
+
+\subsection{Basic Processing}
+
+\subsubsection{Rescaling and centering}
+
+\subsubsection{Histograms}
+
+\subsubsection{Spectral Decay and effective dimensionality}
+
+\subsubsection{Moving Functionals}
+
+\subsubsection{Interpolation and Resampling}
+
+\subsubsection{Linear Filters}
+
+\subsubsection{Nonlinear Filters}
+
+\subsubsection{Fourier Transform}
+
+\subsubsection{Wavelet Transforms}
+
+\subsubsection{Shapelets}
+
+\subsection{Signal Inference}
+
+\subsubsection{Kalman Filter}
+
+\subsubsection{Hidden Markov model}
+
+\section{Optimization}
+
+
+
+
+\newpage
+
+\part{Representation}
+
+\section{Smoothing, Compression, and Information Loss}
+
+\subsubsection{Basis sparsity and the Fourier Transform}
+
+\subsubsection{Geometric Compression}
+
+\subsubsection{Introduction to Dimensionality Reduction}
+
+\newpage
+
+\section{Basic Basis Function Expansion}
+
+\subsection{Polynomial Basis}
+
+\subsection{Periodic Basis}
+
+\subsection{Piecewise Linear}
+
+\subsection{Radial Basis Functions}
+
+\subsection{Sigmoid Functions}
+
+\newpage
+
+\section{Adaptive Basis Function Methods}\label{sec:shortcuts}
+
+\subsection{Kernels}
+
+\subsubsection{The Gram matrix}
+
+\subsubsection{The Kernel Trick}
+
+\subsubsection{Learning the Kernel}
+
+\subsection{Gaussian Processes}
+
+\subsection{Neural Networks}
+
+\subsection{Kernel Machines}
+
+\section{Latent Processes}
+
+\subsection{Discrete Latent Processes}
+
+\subsection{Continuous Latent Processes}
+
+\subsection{Latent Processes as Probabilistic Graphical Models}
+
+\section{Automatic Structure Discovery}
+
+\subsection{Clustering and Graphical Community Identification}
+
+\subsection{Hierarchical clustering}
+
+\subsection{Mean and mediod based clustering}
+
+\subsection{Spectral clustering}
+
+\subsection{Principal components analysis}
+
+\subsection{Linear discriminant analysis}
+
+\subsection{T-distributed stochastic neighbor embedding}
+
+\subsection{Laplacian Eigenmaps and UMAP}
+
+\section{Metric Learning}
+
+\section{Representation examples}
+
+\subsection{Image and video}
+
+\subsection{Speech and sound}
+
+\subsection{Text and genetic sequence}
+
+
+
+
+\newpage
+
+\part{Inference}
+
+\section{Linear methods}
+
+\subsection{Linear Regression}
+
+\subsubsection{Least Squares and Linear Regression}
+
+\subsubsection{Basis Function Expansion}
+
+\subsubsection{Solution Penalties: A Return to Vector Norms and Geometry}
+
+\subsubsection{Bayesian Linear Regression}
+
+\subsection{Logistic Regression}
+
+\subsection{Generalized Linear Models}
+
+\subsubsection{The Exponential Family}
+
+\subsubsection{Conjugacy and Priors}
+
+\section{Adaptive Basis Function Methods}
+
+\subsection{Inference with Neural Networks}
+
+\subsubsection{Single Neurons}
+
+\subsubsection{Feedforward Neural Networks}
+
+\subsubsection{Structured Neural Networks}
+
+\subsubsection{Weight Intialization and Random Matrices}
+
+\subsubsection{Optimization in Neural Networks}
+
+\subsubsection{Probabilistic Neural Networks}
+
+\subsection{Inference with Kernel Machines}
+
+\subsection{Inference with Gaussian Processes}
+
+\newpage
+
+\part{Application}
+
+\section{Step Zero}
+
+\subsection{Understanding the Problem You Care About}
+
+\subsection{Specifying the Inductive Bias}
+
+\section{Exploratory Data Analysis}
+
+\subsection{Dataset Versioning}
+
+\subsection{Visualization}
+
+\subsection{Guaging Problem Difficulty}
+
+\subsection{Starting Simply}
+
+\section{Model Selection}
+
+\subsection{Standard Model Selection}
+
+\subsection{Bayesian Model Selection}
+
+\section{Hyperparameter Selection}
+
+\subsection{Heuristics}
+
+\subsection{Bayesian Optimization}
+
+\section{Datasets and Distribution Shift}
+
+\subsection{Training on the Test Set}
+
+\subsection{Internal Covariate Shift}
+
+\subsection{Distribution Shift}
+
+\section{Application: Computer Vision}
+
+\section{Application: Linguistics \& Genomics}
+
+\section{Application: Robotics \& Control}
+
+\newpage
+
+\part{Frontiers}
+
+\section{Model Composition}
+
+\subsection{Probabilistic Graphics Models and Adaptive Basis Methods}
+
+\section{Returning to Control: Machine Learning in Society}
+
+\subsection{Autonomous Vehicles}
+
+\subsection{Autonomy in Weapon Systems}
+
+\subsection{Robustness in Machine Learning}
+
+
+\section{Brain Machine Interfacing}
+
+\subsection{Studying the Brain}
+
+\subsection{Imitating the Brain}
+
+\subsection{Machine intelligence as analogies for neurocomputation}
+
+\section{Machine Intelligence: What will it take?}
+
+\subsection{The AI effect}
+
+\subsection{Hype and Reality}
+
+\subsection{Constructing Cockroaches}
+
+
+\part{Appendices}
+
+\subsection{Notation}
+
+\subsection{Calculus}
+
+\subsubsection{Derivatives}
+
+\subsubsection{Chain Rule \& Product Rule}
+
+\subsubsection{Integrals}
+
+\subsection{Complex numbers as dynamic objects}
+
+
+
+
+
+
+
+\end{document}
