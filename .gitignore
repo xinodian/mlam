@@ -7,5 +7,5 @@
 *.synctex.gz
 *.DS_Store
 *.fdb_latexmk
-*.tex
+# *.tex
 *.toc
